@@ -2,7 +2,6 @@ const users = [
   {
     id: 1,
     name: 'Leanne Graham',
-    username: 'Bret',
     email: 'Sincere@april.biz',
     address: {
       street: 'Kulas Light',
@@ -94,7 +93,6 @@ const users = [
   {
     id: 5,
     name: 'Chelsey Dietrich',
-    username: 'Kamren',
     email: 'Lucio_Hettinger@annie.ca',
     address: {
       street: 'Skiles Walks',
