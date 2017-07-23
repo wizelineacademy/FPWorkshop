@@ -6,6 +6,8 @@ function Maybe(value) {
   return !isNil(value) ? new Just(value) : new Nothing();
 }
 
+Maybe.of = (value) => new Just(value);
+
 const withDefault = (defaultValue, maybeValue) =>
   maybeValue.isJust ? maybeValue.value : defaultValue;
 
