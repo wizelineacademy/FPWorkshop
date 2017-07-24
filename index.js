@@ -9,26 +9,21 @@ const {
   maybe,
 } = require('./utils');
 
+const { Maybe, withDefault } = maybe;
+const safeUsername = (user) => Maybe(user.username);
+const getCity = compose(prop('city'), prop('address'));
+
 const init = () => {
   console.log(users);
 };
 
-const getWebsitesWithOrg = (users) => {
-  return compose(
-    map(prop('website')),
-    filter((user) => user.website.includes('.org'))
-  )(users);
-};
+const getWebsitesWithOrg = compose(
+  map(prop('website')),
+  filter((user) => user.website.includes('.org'))
+);
 
-const getAllCities = (users) => {
-  const getCity = compose(prop('city'), prop('address'));
-  return compose(unique, map(getCity))(users);
-};
-
-const getUserNames = (users) => {
-  const safeUsername = (user) => maybe.Maybe(user.username);
-  return map(compose(maybe.withDefault('No username'), safeUsername), users);
-};
+const getAllCities = compose(unique, map(getCity));
+const getUserNames = map(compose(withDefault('No username'), safeUsername));
 
 // Here we go
 init();
