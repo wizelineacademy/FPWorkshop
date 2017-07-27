@@ -16,7 +16,7 @@
  *
  * */
 
-const data = require('./temperatureAverageData');
+const data = require('../data/temperatures');
 const {
   filter,
   length,
