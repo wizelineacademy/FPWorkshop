@@ -19,6 +19,7 @@
 const {
   filter,
   length,
+  logger,
   // you can check out other utils in the utils directory
 } = require('../utils');
 
@@ -60,7 +61,7 @@ const data = [
   {value: 14, timeStamp: new Date(2000,06,20,30,15,0)},
 ];
 
-console.log(averageInRange(
+logger(averageInRange(
   new Date(2000, 06, 20, 9, 0, 0),
   new Date(2000, 06, 20, 15, 0, 0),
   data
