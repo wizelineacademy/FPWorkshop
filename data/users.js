@@ -2,7 +2,6 @@ const users = [
   {
     id: 1,
     name: 'Leanne Graham',
-    username: 'Bret',
     email: 'Sincere@april.biz',
     address: {
       street: 'Kulas Light',
@@ -30,7 +29,7 @@ const users = [
     address: {
       street: 'Victor Plains',
       suite: 'Suite 879',
-      city: 'Wisokyburgh',
+      city: 'Gwenborough',
       zipcode: '90566-7771',
       geo: {
         lat: '-43.9509',
@@ -53,7 +52,7 @@ const users = [
     address: {
       street: 'Douglas Extension',
       suite: 'Suite 847',
-      city: 'McKenziehaven',
+      city: 'Lebsackbury',
       zipcode: '59590-4157',
       geo: {
         lat: '-68.6102',
@@ -94,12 +93,11 @@ const users = [
   {
     id: 5,
     name: 'Chelsey Dietrich',
-    username: 'Kamren',
     email: 'Lucio_Hettinger@annie.ca',
     address: {
       street: 'Skiles Walks',
       suite: 'Suite 351',
-      city: 'Roscoeview',
+      city: 'Wisokyburgh',
       zipcode: '33263',
       geo: {
         lat: '-31.8129',
@@ -145,7 +143,7 @@ const users = [
     address: {
       street: 'Rex Trail',
       suite: 'Suite 280',
-      city: 'Howemouth',
+      city: 'Wisokyburgh',
       zipcode: '58804-1099',
       geo: {
         lat: '24.8918',
@@ -191,7 +189,7 @@ const users = [
     address: {
       street: 'Dayna Park',
       suite: 'Suite 449',
-      city: 'Bartholomebury',
+      city: 'Howemouth',
       zipcode: '76495-3109',
       geo: {
         lat: '24.6463',
