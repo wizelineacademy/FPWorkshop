@@ -1,4 +1,3 @@
-const tail = ([, ...rest]) => rest
+const tail = ([, ...rest]) => rest;
 
 module.exports = tail;
-
