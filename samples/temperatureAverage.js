@@ -16,7 +16,7 @@
  *
  * */
 
-const data = require('./data');
+const data = require('./temperatureAverageData');
 const {
   filter,
   length,
@@ -32,4 +32,4 @@ logger(averageInRange(
   new Date(2000, 06, 20, 9, 0, 0),
   new Date(2000, 06, 20, 15, 0, 0),
   data
-));
+)); // ~ 25.6
