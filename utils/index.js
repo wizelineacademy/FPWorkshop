@@ -6,7 +6,6 @@ const head = require('./head');
 const length = require('./length');
 const logger = require('./logger');
 const map = require('./map');
-const maybe = require('./maybe');
 const includes = require('./includes');
 const prop = require('./prop');
 const props = require('./props');
@@ -23,7 +22,6 @@ module.exports = {
   logger,
   head,
   map,
-  maybe,
   includes,
   identity,
   prop,
