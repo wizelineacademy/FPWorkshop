@@ -26,7 +26,7 @@ const getWebsitesWithOrg = (users) => {
  *
  *  result => street + suite + city + zipcode
  *
- *getFinalAddresses(users) -> String
+ *getFinalAddresses(users) -> List<String>
  *
  * */
 
