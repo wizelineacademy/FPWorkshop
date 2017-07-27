@@ -26,6 +26,8 @@ const getWebsitesWithOrg = (users) => {
  *
  *  result => street + suite + city + zipcode
  *
+ *  example = 'Lombard Street Apt 56 Sn Francisco 90098'
+ *
  *getFinalAddresses(users) -> List<String>
  *
  * */
